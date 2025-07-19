@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab";
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
+
+h2 {
+    font-size: 30px;
+    color: #151517;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #151517;
+    padding: 10px;
+}
+
+.main {
+    padding: 20px 0px;
+}
+
+main h2 a {
+    text-decoration: none;
+    color: #151517;
+}
+
+.gap {
+    column-gap: 25px;
+}
+
+.ul a {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #f1f1f3;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.ul a:hover {
+    color: yellow;
+}
+
+.gap img {
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.EatMe {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #151517;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 25px;
+}
+
+.EatMe a {
+    color: #151517;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.EatMe a:hover {
+    border-bottom: yellow 6px solid;
+}
+
+.buy {
+    background: url(../img/main.png) center/cover no-repeat;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 1000px;
+    position: relative;
+}
+
+.in {
+    text-align: center;
+    color: #f1f1f3;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.in h1 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+.in p {
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.in {
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+
+.arr {
+    position: relative;
+    right: -750px;
+    top: -100px;
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 10px 13px;
+    transition: all 1s ease;
+}
+
+.arr:hover {
+    background-color: #f1f1f3;
+}
+
+.ar {
+    text-transform: uppercase;
+    color: #151517;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-decoration: none;
+    border: solid 2px yellow;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.ar:hover {
+    background-color: #151517;
+    color: aliceblue;
+}
+
+.comments {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+.comments a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding: 20px 20px;
+}
+
+.comments a:hover {
+    border: solid 4px yellow;
+}
+
+.comments h2 {
+    font-size: 20px;
+    color: #151517;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    min-width: 250px;
+}
+
+.comments p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #878787;
+    font-weight: 400;
+}
+
+.comments img {
+    min-width: 50px;
+    min-height: 90px;
+}
+
+.fast {
+    padding-top: 100px;
+}
+
+.about {
+    background-color: #f1f1f3;
+    padding: 50px 0px;
+}
+
+.about h2 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #151517;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+    text-align: center;
+}
+
+.aktia {
+    background: url(../img/maintwo.jpg) center/cover no-repeat;
+    height: 250px;
+}
+
+.aktia p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 70px;
+}
+
+.aktia a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #151517;
+    font-weight: 700;
+    border: solid 2px yellow;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+
+.aktia a:hover {
+    background-color: #151517;
+    color: aliceblue;
+}
+
+.aktia .flex {
+    justify-content: center;
+}
+
+.dishes h2 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.dishes .flex {
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.dishes a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 3px yellow;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #151517;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.dishes a:hover {
+    background-color: yellow;
+}
