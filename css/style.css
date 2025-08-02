@@ -156,6 +156,7 @@ main h2 a {
 
 .comments {
     padding-top: 250px;
+    width: 100%;
 }
 
 .comments a {
@@ -278,4 +279,70 @@ main h2 a {
 
 .dishes a:hover {
     background-color: yellow;
+}
+
+.cen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img {
+    padding-top: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.rate {
+    padding-top: 30px;
+    background-color: #f1f1f3;
+    padding-bottom: 40px;
+}
+
+.rate h2 {
+    font-size: 30px;
+    line-height: 46px;
+    color: #151517;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.mind p {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+}
+
+.people p {
+    font-size: 12px;
+    color: #151517;
+    font-weight: 700;
+    text-align: center;
+}
+
+.people .peopl {
+    font-size: 10px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.krapki {
+    column-gap: 5px;
+    padding: 0px;
 }
