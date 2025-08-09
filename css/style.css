@@ -118,7 +118,7 @@ main h2 a {
 .in {
     position: absolute;
     top: 70px;
-    left: 130px;
+    left: 120px;
 }
 
 .arr {
@@ -356,7 +356,7 @@ main h2 a {
 .text {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 85px;
 }
 
 .text li img{
